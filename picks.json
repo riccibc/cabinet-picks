@@ -1,6 +1,27 @@
 {
   "weeks": [
     {
+      "goLive": "2026-11-20",
+      "title": "Picks",
+      "picks": [
+        {
+          "mbid": "3e0de863-6232-3f43-b2a2-7cfbf71b99e9",
+          "artist": "Talk Talk",
+          "title": "Laughing Stock",
+          "year": 1991,
+          "note": "Test week. Placeholder note, to be replaced with your own words.",
+          "tag": "reissue"
+        },
+        {
+          "mbid": "a6d9dc68-9bc3-3898-a528-0f2cd844d9f3",
+          "artist": "Sibylle Baier",
+          "title": "Colour Green",
+          "year": 2006,
+          "note": "Test week. Placeholder note, to be replaced with your own words."
+        }
+      ]
+    },
+    {
       "goLive": "2026-11-23",
       "title": "Picks",
       "picks": [
