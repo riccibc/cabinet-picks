@@ -1,3 +1,48 @@
 {
-  "weeks": []
+  "weeks": [
+    {
+      "goLive": "2026-11-27",
+      "title": "Picks",
+      "picks": [
+        {
+          "mbid": "57f5e7c8-2a6e-34a0-b4cd-0e77695bc36f",
+          "artist": "Beastie Boys",
+          "title": "Licensed to Ill",
+          "year": 1986,
+          "note": "The first rap LP to top the Billboard 200, and is ranked among the greatest hip-hop albums. Available for pre-order at beastieboys.com",
+          "tag": "reissue"
+        },
+        {
+          "mbid": "9a09e6bf-a83f-4166-8287-819f1cba6eee",
+          "artist": "E. Live",
+          "title": "Boogie for Life",
+          "year": 2020,
+          "note": "Futuristic modern boogie on Star Creature label",
+          "tag": "new pressing"
+        },
+        {
+          "mbid": "f478bcf4-4b8e-49a5-a614-661aca777665",
+          "artist": "Phoebe Bridgers",
+          "title": "Live at Madison Square Garden",
+          "year": 2026,
+          "note": "A momentous concert and a limited edition vinyl. Excellent if you can find it."
+        },
+        {
+          "mbid": "a9ddd595-46dc-4e2c-841a-b3043188ae15",
+          "artist": "John Coltrane",
+          "title": "The Essential John Coltrane on Impulse!",
+          "year": 2018,
+          "note": "2026 marks 100 years since the birth of John Coltrane, one of the most influential musicians of all time."
+        },
+        {
+          "mbid": "4c4eee61-da1e-4115-8eb9-07e5b671fefe",
+          "artist": "Olivia Rodrigo",
+          "title": "you seem pretty sad for a girl so in love",
+          "year": 2026,
+          "note": "Melt with you vinyl in starburst. Three-time Grammy award winner with her 3rd studio release.",
+          "tag": "new"
+        }
+      ]
+    }
+  ]
 }
