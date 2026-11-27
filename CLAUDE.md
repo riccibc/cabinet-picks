@@ -14,7 +14,11 @@ When asked to add picks for a week:
    Friday the 20th if the 20th is a Friday; otherwise ask).
 4. Run `python3 scripts/validate.py` and fix every error before committing.
    Mention any warnings.
-5. Commit with a message like "Picks for Nov 20" and push.
+5. Run `python3 scripts/build_archive.py` to rebuild ARCHIVE.md and picks.csv.
+6. Commit with a message like "Picks for Nov 20" and push.
+
+Never delete a past week from picks.json: it's the permanent record the
+archive and any newsletter are built from.
 
 Don't change `schema.json`, the scripts or the workflow unless asked. The
 Cabinet app and its Worker depend on this exact format.

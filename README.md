@@ -39,14 +39,23 @@ queued week's date arrives.
 2. Write a note for every pick in `picks.json`: one or two lines, in your own
    words. A pick without a note fails the check, so nothing goes live without one.
 
-3. Check, then push:
+3. Check, rebuild the archive, then push:
 
    ```bash
    python3 scripts/validate.py
-   git add picks.json && git commit -m "Picks for Nov 20" && git push
+   python3 scripts/build_archive.py
+   git add picks.json ARCHIVE.md picks.csv && git commit -m "Picks for Nov 20" && git push
    ```
 
 The check needs `pip install jsonschema` once.
+
+## Every pick, in one list
+
+`ARCHIVE.md` lists every week that has gone live, newest first and grouped by
+year, with each note: ready for a newsletter or a year-end recap. `picks.csv`
+is the same as a spreadsheet. `scripts/build_archive.py` rebuilds both from
+`picks.json`; weeks that haven't gone live yet are left out. Nothing is ever
+removed from `picks.json`, so the full history stays there too.
 
 ## The format
 
